@@ -1,0 +1,4 @@
+-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I..\..\..\..\Include -I..\SPI -I..\AT45DBXX --c99
+-I d:\Keil\ARM\RV31\INC
+-I d:\Keil\ARM\CMSIS\Include
+-DNRF51 -DBOARD_PCA10001 -o .\_build\spi_master.o --omf_browse .\_build\spi_master.crf --depend .\_build\spi_master.d --feedback ".\_build\uart_example_arm.fed" "..\..\..\..\Source\spi_master\spi_master.c"

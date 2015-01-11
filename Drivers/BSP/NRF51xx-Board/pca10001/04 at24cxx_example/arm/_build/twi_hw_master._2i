@@ -1,0 +1,4 @@
+-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I..\..\..\..\Include -I..\at24cxx --c99
+-I d:\Keil\ARM\RV31\INC
+-I d:\Keil\ARM\CMSIS\Include
+-DNRF51 -DBOARD_PCA10001 -o .\_build\twi_hw_master.o --omf_browse .\_build\twi_hw_master.crf --depend .\_build\twi_hw_master.d --feedback ".\_build\uart_example_arm.fed" "..\twi_hw_master.c"
